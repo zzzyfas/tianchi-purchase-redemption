@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Project data files - do not upload raw or processed data
+data/raw/*
+data/processed/*
+outputs/*
+
+# Keep empty folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# Common data/model files
+*.csv
+*.zip
+*.pkl
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.joblib
